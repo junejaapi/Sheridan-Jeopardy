@@ -1,0 +1,82 @@
+body {
+    background-image: url("images/background.jpg");
+}
+div#logo {
+    display: inline;
+    padding-left: 577px;
+}
+div#input {
+    display: block;
+    text-align: center;
+    background-color: #7e7842;
+    padding-top: 146px;
+    padding-bottom: 91px;
+    font-size: 20px;
+}
+.login {
+    font-size: 20px;
+    text-align: center;
+}
+.info {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: #ffe505;
+    font-family: cursive;
+}   
+p.welcome {
+    display: inline;
+    padding-right: 448px;
+}
+p.winning {
+    display: inline;
+}
+.choose {
+    display: inlline;
+}
+.ironman {
+    display: inline;
+}
+.canada {
+    display: inline;
+}
+.category {
+    padding-left: 100px;
+    display: block;
+}
+.line1 {
+    padding-left: 38px;
+    padding-right: 11px;
+    width: 196px;
+    height: 128px;
+}
+.line2 {
+    padding-left: 154px;
+    padding-right: 2px;
+    width: 103px;
+    height: 118px;
+}
+.line3 {
+    padding-left: 154px;
+    padding-right: 2px;
+    width: 103px;
+    height: 118px;
+}
+.line4 {
+    padding-left: 154px;
+    padding-right: 2px;
+    width: 103px;
+    height: 118px;
+}
+.line5 {
+    padding-left: 154px;
+    padding-right: 2px;
+    width: 103px;
+    height: 118px;
+}
+.line6 {
+    padding-left: 154px;
+    padding-right: 2px;
+    width: 103px;
+    height: 118px;
+}
