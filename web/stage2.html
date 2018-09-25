@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sheridan Jeopardy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+</head>
+<style>
+    body {
+        background-image: url("images/background.jpg");
+    }
+    .info {
+        text-align: center;
+        font-size: 40px;
+        font-style: italic;
+        color: #ffe505;
+        font-family: cursive;
+    }   
+    p.welcome {
+        display: inline;
+        padding-right: 448px;
+    }
+    p.winning {
+        display: inline;
+    }
+    .question {
+        text-align: center;
+        font-size: 48px;
+        background-color: white;
+        color: cadetblue;
+    }
+    .bye {
+        background-color: white;
+        font-size: 48px;
+        color: red;
+        text-decoration: none;
+    }   
+    span.quit {
+        padding-left: 300px;
+        text-decoration: none;
+    }
+    span.submit {
+        float: right;
+        padding-right: 287px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .options {
+        background-color: beige;
+        font-size: 29px;
+    }
+    label.style {
+        text-align: center;
+        padding-left: 183px;
+        padding-top: 14px;
+    }
+</style>
+<body>
+    <main>
+        <div class="info">
+                <p class="welcome">WELCOME <span>NAME</span></p>
+                <p class="winning">WINNINGS <span>$0</span></p>
+        </div>
+        <div class="question">
+            <p>.....................................Question.....................................?</p>
+        </div>    
+        <div class="options">
+            <a href="#"><label class="style"><input type="radio">option1</label></a>
+            <a href="#"><label class="style"><input type="radio">option2</label></a>
+            <a href="#"><label class="style"><input type="radio">option3</label></a>
+            <a href="#"><label class="style"><input type="radio">option4</label></a>
+        </div>
+        </div>
+        <div class="bye">
+            <a href="#"><span class="quit">Quit</span></a>
+            <a href="#"><span class="submit">Submit</a></span>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
